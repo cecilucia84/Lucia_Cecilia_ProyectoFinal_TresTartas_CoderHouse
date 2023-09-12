@@ -1,182 +1,201 @@
 * {
-    margin: 0;
-    padding: 0;
-    background-color: #cbc2bc
+  margin: 0;
+  padding: 0;
+  background-color: #cbc2bc;
 }
 
 .header {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+.header img {
+  width: 400px;
+  margin: 30px 0;
 }
 
-.header img {
-    width: 400px;
-    margin: 30px 0;
+.container {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  line-height: 10;
+  padding-top: 100px;
+  border-top: 1px solid #cbc2bc;
+  margin-top: 15px;
 }
 
 .nav {
-    text-transform: uppercase;
-    text-decoration: none;
-    color: blueviolet;
-    font-weight: bold;
-    font-family: 'Lucida Sans';
-    padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: blueviolet;
+  font-weight: bold;
+  font-family: "Lucida Sans";
+  padding: 10px;
 }
-
 .nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    margin: 20px 0;
-    width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+  width: 100%;
 }
-a{text-decoration: none;
+.nav ul li a:hover {
+  background-color: rgb(162, 162, 162);
+  text-decoration: underline;
+}
+.nav ul li a {
+  color: rgb(12, 9, 12);
+  text-decoration: none;
 }
 
-
-a:hover {
-    background-color: rgb(232, 50, 193);
-}
-
-
-.nav ul li a{
-    color:rgb(12, 9, 12)
+a {
+  text-decoration: none;
 }
 
 #main-index {
-    font-family: sans-serif;
-    font-size: 10px;
+  font-family: sans-serif;
+  font-size: 10px;
 }
-
 #main-index h1 {
-    background-color: deeppink;
-    color: #f0f8ff;
-    max-width: 2000px;
-    margin: 5px 0;
-    
+  background-color: deeppink;
+  color: #f0f8ff;
+  max-width: 2000px;
+  margin: 5px 0;
 }
-
 #main-index .titulo {
-    padding: 10px;
-    border-radius: 15px;
-    margin: 0 0 50px
-}
-
-body {
-    line-height:auto
-}
-
-.container{
-    padding: 0;
-    width:90%;
-   }
-   @media (max-width: 770px) {
-    .container {
-        max-width: 770px;
-        margin: 5px 0
-    }
-}
-
-.footer {
-    text-align: center;
-    padding: 30px;
-    font: bold;
-    font-family: 'Courier New'
-}
-
-.footer p {
-    margin-bottom:0;
-    display:contents;
-}
-
-@media (max-width: 770px) {
-    .footer {
-        font-family: 'Courier New';
-        font-size: 10px;
-        max-width: 770px;
-        margin: 5px 0
-    }
+  padding: 10px;
+  border-radius: 15px;
+  margin: 0 0 50px;
 }
 #main-index .desayuno {
-    margin: 0px 0 15px;
-    padding: 10px;
-    border-radius: 15px;
+  margin: 0px 0px 15px;
+  padding: 10px;
+  border-radius: 15px;
 }
-
 #main-index .cakeshop {
-    padding: 5px;
-    margin: 0 5px 0px;
-    border-radius: 15px;
+  padding: 5px;
+  margin: 0 5px 0px;
+  border-radius: 15px;
 }
 
 .postres_listos {
-    padding: 10px;
-    margin: 15px 0px;
-    font-size: 15px;
-    font-family: 'Lucida Sans';
-    font-weight: bold;
+  padding: 10px;
+  margin: 15px 0px;
+  font-size: 15px;
+  font-family: "Lucida Sans";
+  font-weight: bold;
 }
 
+.container-fotos {
+  display: grid;
+  padding: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  justify-items: center;
+}
+
+.container-tortas {
+  display: grid;
+  padding: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  justify-items: center;
+}
+
+.container-desayunos {
+  display: grid;
+  padding: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 10px 10px;
+  grid-auto-flow: row;
+  justify-items: center;
+}
+
+.video-recetario {
+  display: grid;
+  padding: 20px;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-columns: 2fr;
+  grid-auto-rows: 2fr;
+  gap: 20px 20px;
+  grid-auto-flow: row;
+  justify-items: center;
+  justify-content: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px;
+  font: bold;
+  font-family: "roboto mono";
+}
+.footer p {
+  margin-bottom: 0;
+  display: contents;
+}
+
+@media (max-width: 770px) {
+  .h1 {
+    font-family: sans-serif;
+    font-size: 10px;
+    max-width: 750px;
+    margin: 5px 0;
+  }
+}
 @media (max-width: 1000px) {
-    #main-index {
-        font-family: sans-serif;
-        font-size: 10px;
-        max-width: 1050px;
-        margin: 5px 0
-    }
-}
-
-@media (max-width: 770px) {
-    .container-fotos {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    }}
-
-@media (max-width:770px) {
-    .h1
-    { font-family: sans-serif;
-        font-size: 10px;
-        max-width: 750px;
-        margin: 5px 0}
-}
-
-.container-fotos {  
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-auto-columns: 1fr;
-    grid-auto-rows: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow:row;
-    justify-items: center;
-}
-
-.tortas {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-auto-columns: 1fr;
-    grid-auto-rows: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow:row;
-    justify-items: center;
-}
-
-.container-desayunos{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-auto-columns: 1fr;
-    grid-auto-rows: 1fr;
-    gap: 0px 0px;
-    grid-auto-flow:row;
-    justify-items: center;
+  #main-index {
+    font-family: sans-serif;
+    font-size: 10px;
+    max-width: 1050px;
+    margin: 5px 0;
+  }
 }
 @media (max-width: 770px) {
-    .container-desayunos {
+  .container {
+    max-width: 770px;
+    margin: 5px 0;
+  }
+}
+@media (max-width: 770px) {
+  .container-fotos {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    }}
-
-
-  
+  }
+}
+@media (max-width: 770px) {
+  .container-tortas {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+@media (max-width: 770px) {
+  .container-desayunos {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+@media (max-width: 770px) {
+  .video-recetario {
+    grid-template-columns: 100%;
+    grid-template-rows: 2fr 2fr;
+  }
+}
+@media (max-width: 770px) {
+  .footer {
+    font-family: "Courier New";
+    font-size: 10px;
+    max-width: 770px;
+    margin: 5px 0;
+  }
+}/*# sourceMappingURL=style.css.map */
