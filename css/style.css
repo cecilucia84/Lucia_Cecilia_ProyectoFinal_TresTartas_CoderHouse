@@ -139,7 +139,7 @@ a {
   text-align: center;
   padding: 30px;
   font: bold;
-  font-family: "roboto mono";
+  font-family: "Roboto Mono", monospace;
 }
 .footer p {
   margin-bottom: 0;
