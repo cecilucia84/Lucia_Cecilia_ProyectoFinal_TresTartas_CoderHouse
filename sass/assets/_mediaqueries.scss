@@ -55,11 +55,34 @@
 }
 
 @media (max-width: 770px) {
+    .container-map {
+    grid-template-columns: 100%;
+    }
+}
+
+@media (max-width: 770px) {
+    .horarios {
+    grid-template-columns: 100%;
+    }
+}
+
+@media (max-width: 770px) {
+    .container-encontranos {
+    grid-template-columns: 100%;
+    }
+}
+
+@media (max-width: 770px) {
+    .foto-local {
+    grid-template-columns: 100%;
+    }
+}
+
+@media (max-width: 770px) {
     .footer {
-        font-family: 'Courier New';
+        font-family:$roboto-mono;
         font-size: 10px;
         max-width: 770px;
         margin: 5px 0;
     }
 }
-

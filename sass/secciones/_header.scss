@@ -17,6 +17,7 @@
     padding-top: 100px;
     border-top: 1px solid #cbc2bc;
     margin-top: 15px;
+    box-sizing: border-box;
 
 }
 
@@ -25,7 +26,8 @@
     text-decoration: none;
     color: blueviolet;
     font-weight: bold;
-    font-family: 'Lucida Sans';
+    font-family: $marcellus;
+    font-size: 22px;
     padding: 10px;
 
     ul {
@@ -34,16 +36,24 @@
         justify-content: space-around;
         margin: 20px 0;
         width: 100%;
-        
+
         li a:hover {
+            
             background-color: rgb(162, 162, 162);
             text-decoration: underline;
+
         }
+
         li a {
             color: rgb(12, 9, 12);
             text-decoration: none;
-        }}}
+            transition: background-color 0.3s, text-decoration 0.3s;
+            
+            
+        }
+    }
+}
 
-            a {
-                text-decoration: none;
-            }
+a {
+    text-decoration: none;
+}

@@ -1,4 +1,9 @@
+@import "./assets/variables.scss";
+
 @import "./assets/typografy.scss";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 
 @import "./assets/reset";
 
@@ -12,8 +17,3 @@
 
 
 @import "./assets/mediaqueries";
-
-
-
-
-
