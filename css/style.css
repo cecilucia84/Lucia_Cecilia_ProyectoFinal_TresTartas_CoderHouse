@@ -12127,16 +12127,19 @@ a {
 @media (max-width: 770px) {
   .horarios {
     grid-template-columns: 100%;
+    margin: auto;
   }
 }
 @media (max-width: 770px) {
   .container-encontranos {
     grid-template-columns: 100%;
+    margin: auto;
   }
 }
 @media (max-width: 770px) {
   .foto-local {
     grid-template-columns: 100%;
+    margin: auto;
   }
 }
 @media (max-width: 770px) {
