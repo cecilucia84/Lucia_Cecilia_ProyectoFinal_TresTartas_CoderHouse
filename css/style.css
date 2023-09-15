@@ -12091,6 +12091,14 @@ a {
   }
 }
 @media (max-width: 770px) {
+  #main-index {
+    font-family: sans-serif;
+    font-size: 10px;
+    max-width: 770px;
+    margin: 5px 0;
+  }
+}
+@media (max-width: 770px) {
   .container {
     max-width: 770px;
     margin: 5px 0;
@@ -12123,12 +12131,14 @@ a {
 @media (max-width: 770px) {
   .container-map {
     grid-template-columns: 100%;
+    position: relative;
   }
 }
 @media (max-width: 770px) {
   .horarios {
     grid-template-columns: 100%;
     margin: auto;
+    height: auto;
   }
 }
 @media (max-width: 770px) {
