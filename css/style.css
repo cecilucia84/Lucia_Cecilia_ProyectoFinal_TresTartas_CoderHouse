@@ -12179,7 +12179,7 @@ a {
 
 .video-recetario {
   display: grid;
-  padding: 20px;
+  padding-top: 40px;
   grid-template-columns: 2fr 2fr 2fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-auto-columns: 2fr;
@@ -12188,6 +12188,40 @@ a {
   grid-auto-flow: row;
   justify-items: center;
   justify-content: center;
+}
+
+.sabias_que {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.container_sabias_que {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 20px;
+  background-color: hsl(310, 3%, 59%);
+  border-radius: 15px;
+}
+
+.sabias h2, .sabias .h2 {
+  font-family: "Merriweather", serif;
+  margin-right: 20px;
+  font-size: 45px;
+  background-color: hsl(310, 3%, 59%);
+}
+
+.parrafo_sabias {
+  font-family: "Marcellus", serif;
+  font-size: 30px;
+  background-color: hsl(310, 3%, 59%);
+  margin-right: 20rem;
+}
+
+.foto_sabias {
+  width: 450px;
+  border-radius: 15px;
 }
 
 .foto-local {
