@@ -269,6 +269,24 @@
     }
 }
 
+.container-desayunos {
+    display: inline-flex;
+    width: 880px;
+    margin:0 auto;
+
+    text-align: center;
+    $card-height: 100%;
+   
+    .card p {
+        font-size: 12px;
+    }
+
+    .card:hover {
+        transform: scale(1.1);
+        transition: all .2s;
+
+    }
+}
 .container-tortas {
     display: grid;
     padding: 30px;

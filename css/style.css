@@ -12204,6 +12204,20 @@ a {
   transition: all 0.2s;
 }
 
+.container-desayunos {
+  display: inline-flex;
+  width: 880px;
+  margin: 0 auto;
+  text-align: center;
+}
+.container-desayunos .card p {
+  font-size: 12px;
+}
+.container-desayunos .card:hover {
+  transform: scale(1.1);
+  transition: all 0.2s;
+}
+
 .container-tortas {
   display: grid;
   padding: 30px;
