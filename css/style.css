@@ -12216,18 +12216,6 @@ a {
   justify-items: center;
 }
 
-.container-desayunos {
-  display: grid;
-  padding: 30px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-auto-columns: 1fr;
-  grid-auto-rows: 1fr;
-  gap: 10px 10px;
-  grid-auto-flow: row;
-  justify-items: center;
-}
-
 .video-recetario {
   display: grid;
   padding: 20px;
