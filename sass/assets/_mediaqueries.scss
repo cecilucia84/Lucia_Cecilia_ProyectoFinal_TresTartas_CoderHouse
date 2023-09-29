@@ -1,3 +1,19 @@
+@media screen and (min-width: 240px) and (max-width: 1080px) {
+       
+    .nav {
+      width: 100%;
+      display: flex;
+      margin: 0 auto;
+      justify-content: space-between;
+      align-items: center;
+      height: 100px;
+      background-color: #cbc2bc;
+      padding: 0 5%;
+      height: 100px;
+    }
+    
+
+
 @media screen and (max-width:770px) {
     .h1 {
         font-family: sans-serif;
@@ -103,4 +119,4 @@
     .container .card .imgContainer{
         left: -2px;
     }
-}
+}}

@@ -153,9 +153,37 @@
 }
 
 
+.Quienes_Somos{
+    padding-top:90px;
+}
 
+.container_sabores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 20px;
+    background-color: hsl(310, 3%, 59%);
+    border-radius: 15px;
 
+    .sabores h2 {
+        font-family: $merriweather;
+        font-size: 35px;
+        background-color: hsl(310, 3%, 59%);
 
+    .sabores .parrafo {
+            font-family: $marcellus;
+            font-size: 10px;
+            background-color: hsl(310, 3%, 59%);
+        }
+    }
+}
+
+.foto_sabores{
+    width: 450px;
+    border-radius: 10px;
+
+}
 
 
 

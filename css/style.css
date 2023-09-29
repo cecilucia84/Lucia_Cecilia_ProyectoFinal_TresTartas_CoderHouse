@@ -12097,6 +12097,35 @@ a {
   transition-delay: 0.3s;
 }
 
+.Quienes_Somos {
+  padding-top: 90px;
+}
+
+.container_sabores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 20px;
+  background-color: hsl(310, 3%, 59%);
+  border-radius: 15px;
+}
+.container_sabores .sabores h2, .container_sabores .sabores .h2 {
+  font-family: "Merriweather", serif;
+  font-size: 35px;
+  background-color: hsl(310, 3%, 59%);
+}
+.container_sabores .sabores h2 .sabores .parrafo, .container_sabores .sabores .h2 .sabores .parrafo {
+  font-family: "Marcellus", serif;
+  font-size: 10px;
+  background-color: hsl(310, 3%, 59%);
+}
+
+.foto_sabores {
+  width: 450px;
+  border-radius: 10px;
+}
+
 .container_tortas {
   display: flex;
   flex-wrap: wrap;
@@ -12371,7 +12400,20 @@ a {
   background: #fff;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (min-width: 240px) and (max-width: 1080px) {
+  .nav {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #cbc2bc;
+    padding: 0 5%;
+    height: 100px;
+  }
+}
+@media screen and (min-width: 240px) and (max-width: 1080px) and (max-width: 770px) {
   .h1 {
     font-family: sans-serif;
     font-size: 10px;
@@ -12379,7 +12421,7 @@ a {
     margin: 5px 0;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 240px) and (max-width: 1080px) and (max-width: 1000px) {
   #main-index {
     font-family: sans-serif;
     font-size: 10px;
@@ -12387,7 +12429,7 @@ a {
     margin: 5px 0;
   }
 }
-@media screen and (max-width: 770px) {
+@media screen and (min-width: 240px) and (max-width: 1080px) and (max-width: 770px) {
   #main-index {
     font-family: sans-serif;
     font-size: 10px;
@@ -12395,63 +12437,63 @@ a {
     margin: 5px 0;
   }
 }
-@media screen and (max-width: 770px) {
+@media screen and (min-width: 240px) and (max-width: 1080px) and (max-width: 770px) {
   .container {
     max-width: 770px;
     margin: 5px 0;
   }
 }
-@media screen and (max-width: 770px) {
+@media screen and (min-width: 240px) and (max-width: 1080px) and (max-width: 770px) {
   .container-fotos {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
 }
-@media screen and (max-width: 770px) {
+@media screen and (min-width: 240px) and (max-width: 1080px) and (max-width: 770px) {
   .container-tortas {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
 }
-@media screen and (max-width: 770px) {
+@media screen and (min-width: 240px) and (max-width: 1080px) and (max-width: 770px) {
   .container-desayunos {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
 }
-@media screen and (max-width: 770px) {
+@media screen and (min-width: 240px) and (max-width: 1080px) and (max-width: 770px) {
   .video-recetario {
     grid-template-columns: 100%;
     grid-template-rows: 2fr 2fr;
   }
 }
-@media screen and (max-width: 770px) {
+@media screen and (min-width: 240px) and (max-width: 1080px) and (max-width: 770px) {
   .container-map {
     grid-template-columns: 100%;
     margin: auto;
     max-width: auto;
   }
 }
-@media screen and (max-width: 770px) {
+@media screen and (min-width: 240px) and (max-width: 1080px) and (max-width: 770px) {
   .horarios {
     grid-template-columns: 100%;
     margin: auto;
     height: auto;
   }
 }
-@media screen and (max-width: 770px) {
+@media screen and (min-width: 240px) and (max-width: 1080px) and (max-width: 770px) {
   .container-encontranos {
     grid-template-columns: 100%;
     margin: auto;
   }
 }
-@media screen and (max-width: 770px) {
+@media screen and (min-width: 240px) and (max-width: 1080px) and (max-width: 770px) {
   .foto-local {
     grid-template-columns: 100%;
     margin: auto;
   }
 }
-@media screen and (max-width: 770px) {
+@media screen and (min-width: 240px) and (max-width: 1080px) and (max-width: 770px) {
   .footer {
     font-family: "Roboto Mono", monospace;
     font-size: 10px;
@@ -12459,7 +12501,7 @@ a {
     margin: 5px 0;
   }
 }
-@media (max-width: 330px) {
+@media screen and (min-width: 240px) and (max-width: 1080px) and (max-width: 330px) {
   .container .card .imgContainer {
     left: -2px;
   }
