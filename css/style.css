@@ -11992,14 +11992,16 @@ a {
   background-color: hsl(310, 3%, 59%);
   border-radius: 15px;
 }
-.container_quienes_somos .texto_quienes_somos h2, .container_quienes_somos .texto_quienes_somos .h2 {
+
+.texto_quienes_somos h2, .texto_quienes_somos .h2 {
   font-family: "Merriweather", serif;
   font-size: 45px;
   background-color: hsl(310, 3%, 59%);
 }
-.container_quienes_somos .texto_quienes_somos h2 .texto_quienes_somos .parrafo, .container_quienes_somos .texto_quienes_somos .h2 .texto_quienes_somos .parrafo {
+
+.parrafo {
   font-family: "Marcellus", serif;
-  font-size: 10px;
+  font-size: 20px;
   background-color: hsl(310, 3%, 59%);
 }
 
@@ -12047,7 +12049,7 @@ a {
   color: #6c6c6c;
 }
 
-.container .card {
+.container.card {
   display: grid;
   grid-template-columns: 2 repeat(1fr);
   gap: 20px;
@@ -12097,7 +12099,7 @@ a {
   transition-delay: 0.3s;
 }
 
-.Quienes_Somos {
+.Tortas_Sabores {
   padding-top: 90px;
 }
 
@@ -12387,7 +12389,7 @@ a {
   line-height: 55px;
   bottom: 30px;
   right: 30px;
-  background: #0df053;
+  background: #069734;
   color: #fff;
   border-radius: 50px;
   text-align: center;
