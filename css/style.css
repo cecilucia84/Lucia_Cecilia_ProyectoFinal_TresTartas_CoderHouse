@@ -12049,12 +12049,12 @@ a {
   color: #6c6c6c;
 }
 
-.container.card {
-  display: grid;
-  grid-template-columns: 2 repeat(1fr);
-  gap: 20px;
+.container.cards {
+  display: flex;
+  grid-template-columns: 2 repeat(3fr);
+  gap: 10px;
   max-width: 300px;
-  height: 215px;
+  height: 250px;
   margin: 30px 10px;
   padding: 20px 15px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
@@ -12126,61 +12126,6 @@ a {
 .foto_sabores {
   width: 450px;
   border-radius: 10px;
-}
-
-.container_tortas {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 50px;
-  margin: 0 auto;
-  padding: 75px 80px;
-  background: #cbc2bc;
-}
-.container_tortas .products {
-  margin: 0 35px;
-  border-radius: 10px;
-  width: 80%;
-  flex: 350px;
-}
-.container_tortas .products:hover {
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.info__products {
-  padding: 15px 30px;
-  background: #fff;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  margin-top: -10px;
-  line-height: 1.5;
-  gap: 20px;
-}
-
-.info__products h2, .info__products .h2 {
-  font-size: 25px;
-  font-weight: 500;
-}
-
-.btn__product {
-  padding: 20px 15px;
-  color: #fff;
-  background-color: #C78283;
-  border: 2px solid #C78283;
-  font-size: 15px;
-  font-weight: 400;
-  cursor: pointer;
-  transition: all 0.42s ease;
-}
-
-.btn__product:hover {
-  color: #C78283;
-  background-color: #fff;
-  transition: all 0.42s ease;
-}
-
-.products article {
-  overflow: hidden;
 }
 
 .postres_listos {
