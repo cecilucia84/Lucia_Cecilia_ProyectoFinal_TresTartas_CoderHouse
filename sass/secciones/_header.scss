@@ -8,16 +8,15 @@
     }
 }
 
-.container {
+.logo_this_is_TT {
+    display: flex;
+    justify-content: center;
+}
 
+.carousel {
     display: block;
-    height: auto;
-    max-width: 100%;
-    line-height: 10;
-    padding-top: 100px;
-    border-top: 1px solid #cbc2bc;
-    margin-top: 15px;
-    box-sizing: border-box;
+    max-height: 350px;
+    overflow: hidden;
 
 }
 
@@ -51,6 +50,51 @@
         }
     }
 }
+
 a {
     text-decoration: none;
+}
+
+.container__search form {
+    border-radius: 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 2rem;
+    background-color: none;
+    height: 3rem;
+    overflow: hidden;
+}
+
+.container__search input::placeholder {
+    appearance: none;
+}
+
+.container__search form input {
+    font-size: 1.0rem;
+    width: 15rem;
+    border-radius: 10px;
+    outline: none;
+    color: #232222;
+    border: none;
+    padding: 0 2rem;
+}
+
+.container__search form button i {
+    font-size: 1.5rem;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.container__search .btn__search {
+    border: none;
+    background-color: rgb(245, 240, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 1rem;
+    color: #676363;
+    cursor: pointer;
 }

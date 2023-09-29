@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap");
 /*!
  * Bootstrap  v5.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -11856,6 +11857,7 @@ textarea.form-control-lg {
   margin: 0;
   padding: 0;
   background-color: #cbc2bc;
+  box-sizing: border-box;
 }
 
 .header {
@@ -11867,15 +11869,15 @@ textarea.form-control-lg {
   margin: 30px 0;
 }
 
-.container {
+.logo_this_is_TT {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel {
   display: block;
-  height: auto;
-  max-width: 100%;
-  line-height: 10;
-  padding-top: 100px;
-  border-top: 1px solid #cbc2bc;
-  margin-top: 15px;
-  box-sizing: border-box;
+  max-height: 350px;
+  overflow: hidden;
 }
 
 .nav {
@@ -11907,6 +11909,50 @@ a {
   text-decoration: none;
 }
 
+.container__search form {
+  border-radius: 1rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 2rem;
+  background-color: none;
+  height: 3rem;
+  overflow: hidden;
+}
+
+.container__search input::placeholder {
+  appearance: none;
+}
+
+.container__search form input {
+  font-size: 1rem;
+  width: 15rem;
+  border-radius: 10px;
+  outline: none;
+  color: #232222;
+  border: none;
+  padding: 0 2rem;
+}
+
+.container__search form button i {
+  font-size: 1.5rem;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.container__search .btn__search {
+  border: none;
+  background-color: rgb(245, 240, 240);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 1rem;
+  color: #676363;
+  cursor: pointer;
+}
+
 #main-index {
   font-family: sans-serif;
   font-size: 10px;
@@ -11915,7 +11961,6 @@ a {
   background-color: deeppink;
   font-family: "Marcellus", serif;
   color: #f0f8ff;
-  max-width: 2000px;
   margin: 5px 0;
 }
 #main-index .titulo {
@@ -11934,6 +11979,179 @@ a {
   border-radius: 15px;
 }
 
+.Quienes_Somos {
+  padding-top: 90px;
+}
+
+.container_quienes_somos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 20px;
+  background-color: hsl(310, 3%, 59%);
+  border-radius: 15px;
+}
+.container_quienes_somos .texto_quienes_somos h2, .container_quienes_somos .texto_quienes_somos .h2 {
+  font-family: "Merriweather", serif;
+  font-size: 45px;
+  background-color: hsl(310, 3%, 59%);
+}
+.container_quienes_somos .texto_quienes_somos h2 .texto_quienes_somos .parrafo, .container_quienes_somos .texto_quienes_somos .h2 .texto_quienes_somos .parrafo {
+  font-family: "Marcellus", serif;
+  font-size: 10px;
+  background-color: hsl(310, 3%, 59%);
+}
+
+.foto_Romi {
+  width: 500px;
+  border-radius: 15px;
+}
+
+.informacion_local {
+  padding-top: 10rem;
+}
+
+.info_local {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(1fr);
+  gap: 0 5px;
+  background-color: rgba(247, 243, 240, 0.9333333333);
+}
+
+.info_local {
+  display: flex;
+  text-align: center;
+  margin: 20px 20px;
+  background-color: rgba(247, 243, 240, 0.9333333333);
+  color: rgba(140, 137, 137, 0.903);
+  background-color: #cbc2bc;
+  padding: 20px;
+  border: none;
+}
+
+.container i {
+  font-size: 3rem;
+  margin-right: 15px;
+}
+
+.container h3, .container .h3 {
+  font-size: 1.5rem;
+}
+
+.container p {
+  font-size: 1.1rem;
+  color: #6c6c6c;
+}
+
+.container .card {
+  display: grid;
+  grid-template-columns: 2 repeat(1fr);
+  gap: 20px;
+  max-width: 300px;
+  height: 215px;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+}
+
+.container .card:hover {
+  height: 450px;
+}
+
+.container .card .imgContainer {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  top: -50px;
+  left: 10px;
+  z-index: 1;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.container .card .imgContainer img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.container .card .content {
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #111;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3s ease-in-out;
+}
+
+.container .card:hover .content {
+  visibility: visible;
+  opacity: 1;
+  margin-top: -40px;
+  transition-delay: 0.3s;
+}
+
+.container_tortas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 0 auto;
+  padding: 75px 80px;
+  background: #cbc2bc;
+}
+.container_tortas .products {
+  margin: 0 35px;
+  border-radius: 10px;
+  width: 80%;
+  flex: 350px;
+}
+.container_tortas .products:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.info__products {
+  padding: 15px 30px;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: -10px;
+  line-height: 1.5;
+  gap: 20px;
+}
+
+.info__products h2, .info__products .h2 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.btn__product {
+  padding: 20px 15px;
+  color: #fff;
+  background-color: #C78283;
+  border: 2px solid #C78283;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.42s ease;
+}
+
+.btn__product:hover {
+  color: #C78283;
+  background-color: #fff;
+  transition: all 0.42s ease;
+}
+
+.products article {
+  overflow: hidden;
+}
+
 .postres_listos {
   padding: 20px;
   padding-left: 30px;
@@ -11944,9 +12162,9 @@ a {
 }
 
 .container-fotos {
-  display: block;
-  padding: 30px;
-  width: 90%;
+  display: inline-flex;
+  width: 880px;
+  margin: auto;
   text-align: center;
 }
 .container-fotos .card p {
@@ -12016,6 +12234,7 @@ a {
   flex-direction: column;
   padding-right: 50px;
   margin: auto;
+  max-width: fit-content;
 }
 .horarios h2, .horarios .h2 {
   font-family: "Marcellus", serif;
@@ -12063,18 +12282,96 @@ a {
   padding-left: 40px;
 }
 
+.formulario_de_suscripcion {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.formulario_de_suscripcion form {
+  width: 350px;
+  height: 350px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.formulario_de_suscripcion form h5, .formulario_de_suscripcion form .h5 {
+  font-family: "Marcellus", serif;
+  font-size: 20px;
+  text-align: center;
+  color: #0e0d0d;
+  margin: 0 0 10px 0;
+}
+.formulario_de_suscripcion form p {
+  font-size: 18px;
+  font-family: "Marcellus", serif;
+  text-align: center;
+  color: #777;
+  margin: 0 0 20px 0;
+}
+.formulario_de_suscripcion form .inputext {
+  margin: 15px 0;
+  padding: 17px 25px;
+  outline: none;
+  background: #fff;
+  border: 1px solid #969696;
+  border-radius: 13px;
+  max-width: 100%;
+  max-height: 100%;
+}
+.formulario_de_suscripcion form .form__btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: #C78283;
+  border: 2px solid #C78283;
+  color: #fff;
+  font-size: 10px;
+  margin: 0;
+  transition: all 0.42s ease;
+  cursor: pointer;
+}
+.formulario_de_suscripcion form .form__btn:hover {
+  border: 2px solid #C78283;
+  background: #fff;
+  color: #C78283;
+  transition: all 0.42s ease;
+}
+
 .footer {
   text-align: center;
   padding: 30px;
-  font: bold;
+  font-size: bold;
   font-family: "Roboto Mono", monospace;
 }
 .footer p {
   margin-bottom: 0;
   display: contents;
 }
+.footer .btn-wsp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background: #0df053;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba 0, 0, 0, 0.3;
+  z-index: 100;
+}
 
-@media (max-width: 770px) {
+.btn-wsp:hover {
+  text-decoration: none;
+  color: #0df053;
+  background: #fff;
+}
+
+@media screen and (max-width: 770px) {
   .h1 {
     font-family: sans-serif;
     font-size: 10px;
@@ -12082,7 +12379,7 @@ a {
     margin: 5px 0;
   }
 }
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   #main-index {
     font-family: sans-serif;
     font-size: 10px;
@@ -12090,7 +12387,7 @@ a {
     margin: 5px 0;
   }
 }
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
   #main-index {
     font-family: sans-serif;
     font-size: 10px;
@@ -12098,66 +12395,72 @@ a {
     margin: 5px 0;
   }
 }
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .container {
     max-width: 770px;
     margin: 5px 0;
   }
 }
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .container-fotos {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
 }
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .container-tortas {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
 }
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .container-desayunos {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
 }
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .video-recetario {
     grid-template-columns: 100%;
     grid-template-rows: 2fr 2fr;
   }
 }
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .container-map {
     grid-template-columns: 100%;
-    position: relative;
+    margin: auto;
+    max-width: auto;
   }
 }
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .horarios {
     grid-template-columns: 100%;
     margin: auto;
     height: auto;
   }
 }
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .container-encontranos {
     grid-template-columns: 100%;
     margin: auto;
   }
 }
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .foto-local {
     grid-template-columns: 100%;
     margin: auto;
   }
 }
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .footer {
     font-family: "Roboto Mono", monospace;
     font-size: 10px;
     max-width: 770px;
     margin: 5px 0;
+  }
+}
+@media (max-width: 330px) {
+  .container .card .imgContainer {
+    left: -2px;
   }
 }/*# sourceMappingURL=style.css.map */

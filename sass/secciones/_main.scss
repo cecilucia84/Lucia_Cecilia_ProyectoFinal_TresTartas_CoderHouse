@@ -6,7 +6,6 @@
         background-color: deeppink;
         font-family: $marcellus;
         color: #f0f8ff;
-        max-width: 2000px;
         margin: 5px 0;
     }
 
@@ -30,6 +29,194 @@
     }
 
 }
+.Quienes_Somos{
+    padding-top:90px;
+}
+
+.container_quienes_somos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 20px;
+    background-color: hsl(310, 3%, 59%);
+    border-radius: 15px;
+
+    .texto_quienes_somos h2 {
+        font-family: $merriweather;
+        font-size: 45px;
+        background-color: hsl(310, 3%, 59%);
+
+    .texto_quienes_somos .parrafo {
+            font-family: $marcellus;
+            font-size: 10px;
+            background-color: hsl(310, 3%, 59%);
+        }
+    }
+}
+
+.foto_Romi {
+    width: 500px;
+    border-radius: 15px;
+}
+.informacion_local{
+    padding-top:10rem;
+    
+}
+
+.info_local {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    gap: 0 5px;
+    background-color: #f7f3f0ee;
+}
+
+
+.info_local {
+    display: flex;
+    text-align: center;
+    margin: 20px 20px;
+    background-color: #f7f3f0ee;
+    color: rgba(140, 137, 137, 0.903);
+    background-color: #cbc2bc;
+    padding: 20px;
+    border: none
+}
+
+.container i {
+    font-size: 3rem;
+    margin-right: 15px;
+}
+
+.container h3 {
+    font-size: 1.5rem;
+}
+
+.container p {
+    font-size: 1.1rem;
+    color: #6c6c6c;
+}
+
+
+.container .card
+{
+    display: grid;
+    grid-template-columns:(2 repeat(1fr));
+    gap:20px;
+    max-width: 300px;
+    height: 215px;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+}
+.container .card:hover
+{
+    height: 450px;
+}
+.container .card .imgContainer
+{
+    position: relative;
+    width:250px;
+    height:250px;
+    top:-50px;
+    left:10px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.container .card .imgContainer img
+{
+    max-width: 100%;
+    border-radius: 4px;
+}
+.container .card .content
+{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color:#111;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease-in-out;
+}
+.container .card:hover .content
+{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container_tortas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 0 auto;
+    padding: 75px 80px;
+    background: #cbc2bc;
+    .products{
+        margin: 0 35px;
+        border-radius: 10px;
+        width: 80%;
+        flex: 350px;
+    }
+    .products:hover{
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    }
+}
+
+.info__products{
+    padding: 15px 30px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+    line-height: 1.5;
+    gap: 20px;
+}
+
+.info__products h2{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.btn__product{
+    padding: 20px 15px;
+    color: #fff;
+    background-color: #C78283;
+    border: 2px solid #C78283;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all .42s ease;
+}
+
+.btn__product:hover{
+    color: #C78283;
+    background-color: #fff;
+    transition: all .42s ease;
+}
+
+.products article{
+    overflow: hidden;
+}
 
 .postres_listos {
     padding: 20px;
@@ -42,22 +229,23 @@
 }
 
 .container-fotos {
-    display: block;
-    padding: 30px;
-    width: 90%;
+    display: inline-flex;
+    width: 880px;
+    margin:auto;
     text-align: center;
     $card-height: 100%;
-        
-    .card p{
+   
+    .card p {
         font-size: 12px;
     }
-    
-    .card:hover{
+
+    .card:hover {
         transform: scale(1.1);
         transition: all .2s;
-        
-    }}
-   
+
+    }
+}
+
 .container-tortas {
     display: grid;
     padding: 30px;
@@ -100,7 +288,7 @@
     justify-content: flex-end;
     padding-right: 30px;
     padding-top: 20px;
-  
+
 }
 
 .como-llegar {
@@ -118,6 +306,7 @@
     flex-direction: column;
     padding-right: 50px;
     margin: auto;
+    max-width: fit-content;
 
     h2 {
         font-family: $marcellus;
@@ -149,7 +338,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-   }
+}
 
 .container-encontranos {
     display: flex;
@@ -170,4 +359,62 @@
         padding-left: 40px;
 
     }
+}
+
+.formulario_de_suscripcion{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+        form{
+            width: 350px;
+            height: 350px;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;                      
+                h5{
+                    font-family: $marcellus;
+                    font-size: 20px;
+                    text-align: center;
+                    color: #0e0d0d;
+                    margin: 0 0 10px 0;
+                }
+                p{
+                    font-size: 18px;
+                    font-family: $marcellus;
+                    text-align: center;
+                    color: #777;
+                    margin: 0 0 20px 0;
+                }
+                .inputext{
+                    margin: 15px 0;
+                    padding: 17px 25px;
+                    outline: none;
+                    background: #fff;
+                    border: 1px solid #969696;
+                    border-radius: 13px;
+                    max-width: 100%;
+                    max-height: 100%;                
+                }
+                
+                .form__btn{
+                    padding: 5px 10px;;
+                    border-radius: 5px;
+                    background: #C78283;
+                    border: 2px solid #C78283;
+                    color: #fff;
+                    font-size: 10px;
+                    margin: 0;
+                    transition: all .42s ease;
+                    cursor: pointer;
+                }
+                .form__btn:hover{
+                    border:2px solid #C78283;
+                    background: #fff;
+                    color: #C78283;
+                    transition: all .42s ease;
+                }
+        }
 }

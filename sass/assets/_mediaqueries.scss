@@ -1,4 +1,4 @@
-@media (max-width:770px) {
+@media screen and (max-width:770px) {
     .h1 {
         font-family: sans-serif;
         font-size: 10px;
@@ -7,7 +7,7 @@
     }
 }
 
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
     #main-index {
         font-family: sans-serif;
         font-size: 10px;
@@ -16,7 +16,7 @@
     }
 }
 
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
     #main-index {
         font-family: sans-serif;
         font-size: 10px;
@@ -25,28 +25,28 @@
     }
 }
 
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
     .container {
         max-width: 770px;
         margin: 5px 0;
     }
 }
 
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
     .container-fotos {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
 }
 
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
     .container-tortas {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
 }
 
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
     .container-desayunos {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -54,21 +54,21 @@
 }
 
 
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
     .video-recetario {
         grid-template-columns: 100%;
         grid-template-rows: 2fr 2fr;
     }
 }
 
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
     .container-map {
     grid-template-columns: 100%;
-    position: relative;
-    }
+    margin: auto;
+    max-width: auto;}
 }
 
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
     .horarios {
     grid-template-columns: 100%;
     margin: auto;
@@ -76,25 +76,31 @@
     }
 }
 
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
     .container-encontranos {
     grid-template-columns: 100%;
     margin: auto;
     }
 }
 
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
     .foto-local {
     grid-template-columns: 100%;
     margin: auto;
     }
 }
 
-@media (max-width: 770px) {
+@media screen and (max-width: 770px) {
     .footer {
         font-family:$roboto-mono;
         font-size: 10px;
         max-width: 770px;
         margin: 5px 0;
+    }
+}
+
+@media (max-width: 330px){
+    .container .card .imgContainer{
+        left: -2px;
     }
 }
