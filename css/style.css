@@ -2,6 +2,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Marcellus&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap");
+@keyframes shadow-drop-2-center {
+  0% {
+    transform: translateZ(0);
+    box-shadow: 0 0 0 0 transparent;
+  }
+  100% {
+    transform: translateZ(50px);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.35);
+  }
+}
+.shadow-drop-2-center {
+  animation: shadow-drop-2-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
 /*!
  * Bootstrap  v5.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
@@ -12175,6 +12189,11 @@ a {
   gap: 10px 10px;
   grid-auto-flow: row;
   justify-items: center;
+}
+.container-tortas .container-tortas.hover {
+  transform: scale(1 0);
+  box-shadow: 0 0 0 0 transparent 100%;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.35);
 }
 
 .video-recetario {

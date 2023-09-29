@@ -1,2 +1,4 @@
 $card-height: 100%;
+@keyframes shadow-drop-2-center{0%{transform:translateZ(0);box-shadow:0 0 0 0 transparent}100%{transform:translateZ(50px);box-shadow:0 0 20px 0 rgba(0,0,0,.35)}}
+.shadow-drop-2-center{animation:shadow-drop-2-center .4s cubic-bezier(.25,.46,.45,.94) both}
 
