@@ -12526,9 +12526,4 @@ body {
     max-width: 770px;
     margin: 5px 0;
   }
-}
-@media (max-width: 330px) {
-  .container .card .imgContainer {
-    left: -2px;
-  }
 }/*# sourceMappingURL=style.css.map */
