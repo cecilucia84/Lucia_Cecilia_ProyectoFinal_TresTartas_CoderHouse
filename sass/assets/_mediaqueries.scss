@@ -78,15 +78,16 @@
 }
 
 @media screen and (max-width: 770px) {
-    .Quienes_Somos {
+    .container_quienes_somos {
         flex-direction: column;
-    }
+    }}
 
-
+    
 @media screen and (max-width: 770px) {
     .container-fotos {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+        width: auto;
     }
 }
 
@@ -105,17 +106,22 @@
     .container-desayunos {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-    
+        width: auto;   
 }
-
 }
 
 @media screen and (max-width: 770px) {
     .video-recetario {
         grid-template-columns: 100%;
-        grid-template-rows: 2fr 2fr;
+        grid-template-rows: 1fr 1fr;
+        width: auto;
     }
 }
+
+@media screen and (max-width: 770px) {
+    .container_sabias_que{
+        flex-direction: column;
+    }}
 
 @media screen and (max-width: 770px) {
     .container-map {
