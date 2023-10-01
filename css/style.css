@@ -12408,7 +12408,7 @@ body {
     margin: 0;
   }
 }
-@media screen and (min-width: 1200px) and (min-width: 240px) and (max-width: 1080px) {
+@media screen and (min-width: 240px) and (max-width: 1080px) {
   .nav {
     width: 100%;
     display: flex;
@@ -12421,7 +12421,7 @@ body {
     height: 100px;
   }
 }
-@media screen and (min-width: 1200px) and (min-width: 240px) and (max-width: 1080px) and (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .h1 {
     font-family: sans-serif;
     font-size: 10px;
@@ -12429,7 +12429,7 @@ body {
     margin: 5px 0;
   }
 }
-@media screen and (min-width: 1200px) and (min-width: 240px) and (max-width: 1080px) and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   #main-index {
     font-family: sans-serif;
     font-size: 10px;
@@ -12437,7 +12437,7 @@ body {
     margin: 5px 0;
   }
 }
-@media screen and (min-width: 1200px) and (min-width: 240px) and (max-width: 1080px) and (max-width: 770px) {
+@media screen and (max-width: 770px) {
   #main-index {
     font-family: sans-serif;
     font-size: 10px;
@@ -12445,63 +12445,63 @@ body {
     margin: 5px 0;
   }
 }
-@media screen and (min-width: 1200px) and (min-width: 240px) and (max-width: 1080px) and (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .container {
     max-width: 770px;
     margin: 5px 0;
   }
 }
-@media screen and (min-width: 1200px) and (min-width: 240px) and (max-width: 1080px) and (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .container-fotos {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
 }
-@media screen and (min-width: 1200px) and (min-width: 240px) and (max-width: 1080px) and (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .container-tortas {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
 }
-@media screen and (min-width: 1200px) and (min-width: 240px) and (max-width: 1080px) and (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .container-desayunos {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
 }
-@media screen and (min-width: 1200px) and (min-width: 240px) and (max-width: 1080px) and (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .video-recetario {
     grid-template-columns: 100%;
     grid-template-rows: 2fr 2fr;
   }
 }
-@media screen and (min-width: 1200px) and (min-width: 240px) and (max-width: 1080px) and (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .container-map {
     grid-template-columns: 100%;
     margin: auto;
     max-width: auto;
   }
 }
-@media screen and (min-width: 1200px) and (min-width: 240px) and (max-width: 1080px) and (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .horarios {
     grid-template-columns: 100%;
     margin: auto;
     height: auto;
   }
 }
-@media screen and (min-width: 1200px) and (min-width: 240px) and (max-width: 1080px) and (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .container-encontranos {
     grid-template-columns: 100%;
     margin: auto;
   }
 }
-@media screen and (min-width: 1200px) and (min-width: 240px) and (max-width: 1080px) and (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .foto-local {
     grid-template-columns: 100%;
     margin: auto;
   }
 }
-@media screen and (min-width: 1200px) and (min-width: 240px) and (max-width: 1080px) and (max-width: 770px) {
+@media screen and (max-width: 770px) {
   .footer {
     font-family: "Roboto Mono", monospace;
     font-size: 10px;
@@ -12509,7 +12509,7 @@ body {
     margin: 5px 0;
   }
 }
-@media screen and (min-width: 1200px) and (min-width: 240px) and (max-width: 1080px) and (max-width: 330px) {
+@media (max-width: 330px) {
   .container .card .imgContainer {
     left: -2px;
   }
