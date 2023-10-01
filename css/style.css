@@ -12117,7 +12117,7 @@ a {
 
 .container-tortas {
   display: grid;
-  padding: 30px;
+  padding: 5rem;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-auto-columns: 1fr;
