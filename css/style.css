@@ -11938,7 +11938,6 @@ a {
 }
 
 .container__search form {
-  border-radius: 1rem;
   position: relative;
   display: flex;
   align-items: center;
@@ -11956,11 +11955,11 @@ a {
 .container__search form input {
   font-size: 1rem;
   width: 15rem;
-  border-radius: 10px;
+  border-radius: 0px;
   outline: none;
   color: #232222;
   border: none;
-  padding: 0 2rem;
+  padding: 15px 2rem;
 }
 
 .container__search form button i {
