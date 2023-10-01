@@ -12355,7 +12355,7 @@ body {
   text-align: center;
   padding: 30px;
   padding-top: 8rem;
-  padding-left: 5rem;
+  padding-left: 12rem;
   font-size: bold;
   font-family: "Roboto Mono", monospace;
 }
@@ -12363,7 +12363,8 @@ body {
   margin-bottom: 0;
   display: contents;
 }
-.footer .btn-wsp {
+
+.btn-wsp {
   position: fixed;
   width: 55px;
   height: 55px;
@@ -12378,13 +12379,16 @@ body {
   box-shadow: 0px 1px 10px rgba 0, 0, 0, 0.3;
   z-index: 100;
 }
-.footer .btn-wsp:hover {
+
+.btn-wsp:hover {
   text-decoration: none;
   color: #0df053;
   background: #fff;
 }
-.footer .logo_alta_pinta {
+
+.logo_alta_pinta {
   position: absolute;
+  width: auto;
   left: 4%;
   top: 2%;
 }
