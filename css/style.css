@@ -12495,27 +12495,27 @@ body {
 }
 @media screen and (max-width: 770px) {
   .container-map {
-    grid-template-columns: 100%;
+    flex-direction: column;
     margin: auto;
     max-width: auto;
   }
 }
 @media screen and (max-width: 770px) {
   .horarios {
-    grid-template-columns: 100%;
+    flex-direction: column;
     margin: auto;
     height: auto;
   }
 }
 @media screen and (max-width: 770px) {
   .container-encontranos {
-    grid-template-columns: 100%;
+    flex-direction: column;
     margin: auto;
   }
 }
 @media screen and (max-width: 770px) {
   .foto-local {
-    grid-template-columns: 100%;
+    flex-direction: column;
     margin: auto;
   }
 }
