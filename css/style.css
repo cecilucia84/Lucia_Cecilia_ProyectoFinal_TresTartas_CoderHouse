@@ -11856,7 +11856,6 @@ textarea.form-control-lg {
 * {
   margin: 0;
   padding: 0;
-  background-color: #cbc2bc;
   box-sizing: border-box;
 }
 
@@ -11954,6 +11953,10 @@ a {
   cursor: pointer;
 }
 
+body {
+  background-color: #cbc2bc;
+}
+
 #main-index {
   font-family: sans-serif;
   font-size: 10px;
@@ -11998,12 +12001,16 @@ a {
   font-family: "Merriweather", serif;
   font-size: 45px;
   background-color: hsl(310, 3%, 59%);
+  margin-bottom: 0;
+  padding-bottom: 3rem;
 }
 
 .parrafo {
   font-family: "Marcellus", serif;
   font-size: 20px;
   background-color: hsl(310, 3%, 59%);
+  margin-bottom: 0;
+  padding-bottom: 3rem;
 }
 
 .foto_Romi {
@@ -12066,12 +12073,17 @@ a {
 .container_sabores .sabores h2, .container_sabores .sabores .h2 {
   font-family: "Merriweather", serif;
   font-size: 35px;
+  padding-right: 3rem;
   background-color: hsl(310, 3%, 59%);
+  margin-bottom: 0;
+  padding-bottom: 3rem;
 }
 .container_sabores .sabores h2 .sabores .parrafo, .container_sabores .sabores .h2 .sabores .parrafo {
   font-family: "Marcellus", serif;
   font-size: 10px;
   background-color: hsl(310, 3%, 59%);
+  margin-bottom: 0;
+  padding-bottom: 3rem;
 }
 
 .foto_sabores {
@@ -12160,6 +12172,8 @@ a {
   margin-right: 20px;
   font-size: 45px;
   background-color: hsl(310, 3%, 59%);
+  margin-bottom: 0;
+  padding-bottom: 3rem;
 }
 
 .parrafo_sabias {
@@ -12167,6 +12181,8 @@ a {
   font-size: 30px;
   background-color: hsl(310, 3%, 59%);
   margin-right: 20rem;
+  margin-bottom: 0;
+  padding-bottom: 3rem;
 }
 
 .foto_sabias {

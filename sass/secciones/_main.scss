@@ -1,3 +1,7 @@
+body{
+    background-color: #cbc2bc;
+}
+
 #main-index {
     font-family: sans-serif;
     font-size: 10px;
@@ -47,12 +51,16 @@
     font-family: $merriweather;
     font-size: 45px;
     background-color: hsl(310, 3%, 59%);
+    margin-bottom: 0;
+    padding-bottom: 3rem;
 }
 
 .parrafo {
     font-family: $marcellus;
     font-size: 20px;
     background-color: hsl(310, 3%, 59%);
+    margin-bottom: 0;
+    padding-bottom: 3rem;
 }
 
 
@@ -112,16 +120,21 @@
     margin-right: 20px;
     background-color: hsl(310, 3%, 59%);
     border-radius: 15px;
-
+   
     .sabores h2 {
         font-family: $merriweather;
         font-size: 35px;
+        padding-right: 3rem;
         background-color: hsl(310, 3%, 59%);
+        margin-bottom: 0;
+        padding-bottom: 3rem;
 
     .sabores .parrafo {
             font-family: $marcellus;
             font-size: 10px;
             background-color: hsl(310, 3%, 59%);
+            margin-bottom: 0;
+            padding-bottom: 3rem;
         }
     }
 }
@@ -131,7 +144,6 @@
     border-radius: 10px;
 }
   
-
 .postres_listos {
     padding: 20px;
     padding-left: 30px;
@@ -220,6 +232,8 @@
     margin-right: 20px;
     font-size: 45px;
     background-color: hsl(310, 3%, 59%);
+    margin-bottom: 0;
+    padding-bottom: 3rem;
 }
 
 .parrafo_sabias {
@@ -228,6 +242,8 @@
     font-size: 30px;
     background-color: hsl(310, 3%, 59%);
     margin-right: 20rem;
+    margin-bottom: 0;
+    padding-bottom: 3rem;
 }
 
 
