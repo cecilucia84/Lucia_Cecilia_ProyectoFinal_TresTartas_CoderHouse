@@ -12351,6 +12351,7 @@ body {
 }
 
 .footer {
+  flex-direction: column;
   position: relative;
   text-align: center;
   padding: 30px;
@@ -12372,7 +12373,6 @@ body {
   bottom: 30px;
   right: 30px;
   background: #069734;
-  color: #fff;
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
