@@ -146,6 +146,13 @@
 }
 
 @media screen and (max-width: 770px) {
+    .formulario_de_suscripcion{
+    flex-direction: column;
+    margin: auto;
+    }
+}
+
+@media screen and (max-width: 770px) {
     .foto-local {
     flex-direction: column;
     margin: auto;
@@ -160,4 +167,3 @@
         margin: 5px 0;
     }
 }
-
