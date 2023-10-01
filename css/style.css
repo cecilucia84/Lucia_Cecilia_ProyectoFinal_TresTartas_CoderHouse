@@ -12355,7 +12355,7 @@ body {
   text-align: center;
   padding: 30px;
   padding-top: 8rem;
-  padding-right: 1rem;
+  padding-left: 5rem;
   font-size: bold;
   font-family: "Roboto Mono", monospace;
 }
@@ -12419,6 +12419,14 @@ body {
     background-color: #cbc2bc;
     padding: 0 5%;
     height: 100px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .nav ul {
+    flex-direction: column;
+  }
+  .header {
+    height: auto;
   }
 }
 @media screen and (max-width: 770px) {
