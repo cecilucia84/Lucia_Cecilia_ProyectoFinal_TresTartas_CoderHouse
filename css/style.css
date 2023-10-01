@@ -11892,6 +11892,7 @@ textarea.form-control-lg {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   margin: 20px 0;
   width: 100%;
 }
@@ -12088,7 +12089,6 @@ a {
 }
 
 .container-fotos {
-  display: inline-flex;
   width: 880px;
   margin: auto;
   text-align: center;
@@ -12102,9 +12102,8 @@ a {
 }
 
 .container-desayunos {
-  display: inline-flex;
   width: 880px;
-  margin: 0 auto;
+  margin: auto;
   text-align: center;
 }
 .container-desayunos .card p {
@@ -12326,8 +12325,7 @@ a {
   box-shadow: 0px 1px 10px rgba 0, 0, 0, 0.3;
   z-index: 100;
 }
-
-.btn-wsp:hover {
+.footer .btn-wsp:hover {
   text-decoration: none;
   color: #0df053;
   background: #fff;

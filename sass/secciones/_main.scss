@@ -143,7 +143,6 @@
 }
 
 .container-fotos {
-    display: inline-flex;
     width: 880px;
     margin:auto;
     text-align: center;
@@ -160,10 +159,8 @@
     }}
 
 .container-desayunos {
-    display: inline-flex;
     width: 880px;
-    margin:0 auto;
-
+    margin:auto;
     text-align: center;
     $card-height: 100%;
    
