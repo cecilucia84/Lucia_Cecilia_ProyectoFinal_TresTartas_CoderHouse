@@ -12318,8 +12318,11 @@ body {
 }
 
 .footer {
+  position: relative;
   text-align: center;
   padding: 30px;
+  padding-top: 8rem;
+  padding-right: 1rem;
   font-size: bold;
   font-family: "Roboto Mono", monospace;
 }
@@ -12346,6 +12349,11 @@ body {
   text-decoration: none;
   color: #0df053;
   background: #fff;
+}
+.footer .logo_alta_pinta {
+  position: absolute;
+  left: 4%;
+  top: 2%;
 }
 
 @media screen and (min-width: 240px) {
