@@ -12568,6 +12568,7 @@ body {
     flex-direction: column;
     margin: auto;
     height: auto;
+    padding: 5rem;
   }
 }
 @media screen and (max-width: 770px) {
@@ -12590,6 +12591,7 @@ body {
   .foto-local {
     flex-direction: column;
     margin: auto;
+    padding-left: 8rem;
   }
 }
 @media screen and (max-width: 770px) {
