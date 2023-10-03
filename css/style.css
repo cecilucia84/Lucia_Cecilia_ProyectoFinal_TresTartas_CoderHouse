@@ -12594,6 +12594,14 @@ body {
   }
 }
 @media screen and (max-width: 770px) {
+  .redes {
+    flex-direction: column;
+    margin: auto;
+    height: auto;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 770px) {
   .foto-local {
     flex-direction: column;
     margin: auto;
