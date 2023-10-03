@@ -12564,6 +12564,12 @@ body {
   }
 }
 @media screen and (max-width: 770px) {
+  .como-llegar {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 770px) {
   .horarios {
     flex-direction: column;
     margin: auto;
